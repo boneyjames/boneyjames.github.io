@@ -5,105 +5,73 @@
 }
 
 body {
+	background-image: url("beach_runner.jpeg");
+	background-repeat: no-repeat;
+	background-position: right-top;
+	background-attachment: fixed;
+	background-size: 100% 100%;
 	font-family: "Palatino Linotype", "Book Antiqua", serif;
 	letter-spacing: .05em;
+	color: #002124;
+	background-color: #FFFFFF;
 }
 
-img {
-	width: 33.3%;
-
+nav {
+	margin: .5em;
+	padding: .1em .2em .1em 45%;
 }
 
-/*end of reset*/
-/*
-
-body {
-	background: #4372AA;
-}
-
-.button {
-	background: #4372AA;
-	border: 2px solid #D8BFD8;
-	color: #D8BFD8;
-	display: inline-block;
-	font-family: Helvetica;
-	letter-spacing: 3px;
-	margin: 5px;
-	padding: 5px;
+.navbar a {
 	text-align: center;
-}
-
-.button a {
-	color: #D8BFD8;
 	text-decoration: none;
 }
 
-.first {
-	margin-left: 42%;
-}
-
 .hero {
-  background: url("beach_runner.jpeg") no-repeat center center;
-  background-size: cover;
-  height: 90vh; 
-}
-
-  .hero:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    
+	margin: 1% 10% 10% 10%;
 }
 
 .hero h1 {
-	color: black;
-	font-family: "Times New Roman";
-	font-size: 6em;
-	font-weight: 600;
-	letter-spacing: .2em;
 	text-align: center;
-	text-shadow: 2px 2px #AAAAAA;
-	
+	font-size: 5em;
+	letter-spacing: .07em;
+	text-shadow: 2px 2px #FFFFFC;
 }
 
-.hero p {
-	color: white;
-	font-family: "Times New Roman";
-	font-size: 4em;
+#slogan {
+	color: #FFFFFC;
 	font-style: italic;
-	padding: 1em 4em 4em 4em;
-	text-shadow: 2px 2px #363636;
+	font-size: 2.5em;
+	letter-spacing: .07em;
 	text-align: center;
-	text-transform: italic;
+	text-shadow: 2px 2px #002124;
+}
+
+.shop_button {
+	background-color: #FFFFFC;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2% 45% 2% 45%;
+    cursor: pointer;
+    letter-spacing: .04em;
+    font-size: 2em;
+}
+
+header img {
+	width: 33.3%;
+	height: 25%;
 }
 
 .why {
 	font-family: "Times New Roman";
-	font-style: italic; 
-	font-size: 3.5em;
-	margin: 5%;
-	padding: 5%;
-	text-align: center;
-}
-
-#offer {
-	font-family: "Times New Roman";
-	font-size: 2.5em;
-	letter-spacing: .1em;
-	margin: 2%;
-	padding: 2%;
-	text-align: left;
-}
-
-#list {
-	font-family: "Times New Roman";
-	font-size: 2.5em;
+	font-size: 1.5em;
 	margin: 2%;
 	padding: 2% 1%;
-	letter-spacing: .2em;
+	letter-spacing: .1em;
 	line-height: 3em;
 	text-align: center;
 }
@@ -112,9 +80,8 @@ body {
 	background: #EEE5DE;
 	border: 2px solid black;
 	color: black;
-	font-size: 2.5em;
+	font-size: 1em;
 	margin: 1em;
-	padding: 3em 2em;
+	padding: .04em 1em;
 	text-align: center;
 }
-*/
