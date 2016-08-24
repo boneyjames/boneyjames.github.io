@@ -2,6 +2,18 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
+}
+<style>
+@import 'https://fonts.googleapis.com/css?family=Lora|Raleway';
+</style>
+/*font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif;*/
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 body {
@@ -12,33 +24,41 @@ body {
 	background-attachment: fixed;
 	background-size: 100% 100%;
 	color: #002124;
-	font-family: "Palatino Linotype", "Book Antiqua", serif;
+	font-family: 'Lora', serif;
 	letter-spacing: .05em;
+	font-size: 16px
 }
 
-nav {
+/*nav {
 	margin: .5em;
 	padding: .1em .2em .1em 45%;
-}
+}*/
 
 .navbar a {
+	display: block;
+	width: 33.333%;
+	float: left;
 	text-align: center;
-	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
 }
 
 .hero {
 	margin: 1% 10% 10% 10%;
+	font-family: 'Raleway', sans-serif;
 }
 
 .hero h1 {
 	font-size: 5em;
+	font-family: 'Raleway', sans-serif;
 	letter-spacing: .07em;
+	line-height: 1em;
 	text-align: center;
 	text-shadow: 2px 2px #FFFFFC;
 }
 
 #slogan {
 	color: #FFFFFC;
+	font-family: 'Raleway', sans-serif;
 	font-style: italic;
 	font-size: 2.5em;
 	letter-spacing: .07em;
@@ -48,31 +68,54 @@ nav {
 
 .shop_button {
 	background-color: #FFFFFC;
-    border: none;
+    border-bottom: 2px solid black;
     border-radius: 50%;
     color: black;
     cursor: pointer;
-    display: inline-block;
+    display: block;
     font-size: 2em;
     letter-spacing: .04em;
-    margin: 2% 45% 2% 45%;
-    padding: 15px 32px;
+    margin: 2% auto;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
+    width: 130px;
+    text-align: center;
 }
 
-header img {
-	width: 33.3%;
-	height: 25%;
+
+.imgContainer {
+	width: 33.333%;
+	float: left;
+	position: relative;
+	height: 0;
+	padding-bottom: 22%;
+	overflow: hidden;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.imgContainer img {
+	display: block;
+	width: 100%;
+}
+
+.imgContainer p {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+
 }
 
 .why {
-	font-family: "Times New Roman";
+	font-family: 'Lora', serif;
 	font-size: 1.5em;
-	letter-spacing: .1em;
-	line-height: 3em;
+	letter-spacing: .2em;
+	line-height: 2em;
 	margin: 2%;
-	padding: 2% 1%;
+	padding: 2em 2em;
 	text-align: center;
 }
 
