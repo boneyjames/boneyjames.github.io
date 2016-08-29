@@ -111,11 +111,17 @@ body {
 }
 
 .footer {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
+    background-color: #BBFFE0;
+    border: none;
+    padding: 10px;
     float: left;
     width: 33.33%;
+}
+.footer a {
+	text-decoration: none;
+	font-family: 'Lora', serif;
+	letter-spacing: .3em;
+	text-align: center;
 }
 
 
@@ -139,8 +145,8 @@ body {
 }
 
 #two_column {
-	background-color: #FFB7CF;
-    border: 1px black solid;
+	background-color: #BBFFE0;
+    border: none;
     padding: 20px;
 }
 
