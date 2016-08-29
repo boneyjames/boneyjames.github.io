@@ -11,7 +11,7 @@
 font-family: 'Raleway', sans-serif;*/
 
 .clear:after {
-	content: "";
+	content: " ";
 	display: block;
 	clear: both;
 }
@@ -56,15 +56,6 @@ body {
 	text-shadow: 2px 2px #FFFFFC;
 }
 
-#slogan {
-	color: #FFFFFC;
-	font-family: 'Raleway', sans-serif;
-	font-style: italic;
-	font-size: 2.5em;
-	letter-spacing: .07em;
-	text-align: center;
-	text-shadow: 2px 2px #002124;
-}
 
 .shop_button {
 	background-color: #FFFFFC;
@@ -120,43 +111,36 @@ body {
 }
 
 .footer {
-	background: #EEE5DE;
-	border: 2px solid black;
-	color: black;
-	font-size: 1em;
-	margin: 1em;
-	padding: .04em 1em;
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 33.33%;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#slogan {
+	color: #FFFFFC;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-size: 2.5em;
+	letter-spacing: .07em;
 	text-align: center;
+	text-shadow: 2px 2px #002124;
 }
 
-/*Stuff for project*/
-
-header {
-	background-color: #FFED74;
+#two_column {
+	background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
 
-nav {
-	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-section {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-div {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-footer {
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-}
