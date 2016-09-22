@@ -87,14 +87,14 @@ nav a {
     cursor: pointer;
 }
 
-.btn1{
+.btn1 {
 	background-color: white;
 	color: black;
 	border: 2px solid #555555;
 	width: 7.6em;
-    position: absolute;
+    /*position: absolute;*/
     left: 22%;
-    transform: translateY(-30%);
+    transform: translateX(-129%);
 }
 
 .btn1:hover {
@@ -161,6 +161,11 @@ nav a {
 	content: " ";
 	clear: both;
 	height: 0;
+}
+
+#align {
+	max-width: 800px;
+	text-align: center;
 }
 
 /*#slogan {
