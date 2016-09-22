@@ -37,19 +37,20 @@ nav{
 
 nav a {
 	color: black;
-	display: block;
+	display: inline-block;
 	width: 33.333%;
 	float: left;
 	text-align: center;
 	text-decoration: none;
-	padding: 1em 10em;
-    margin: -.6em 0 .5em 0;
+	padding: 1em 5em;
+	margin: -1em 0 .1em 0;
+   	letter-spacing: 0.2em;
     background: white;
 
 }
 
 .hero {
-	background:url(beach_runner.jpeg) no-repeat center center scroll;
+	background:url(hero.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -62,32 +63,44 @@ nav a {
 
 .hero h1 {
 	font-size: 5em;
-	font-family: 'Raleway', sans-serif;
-	letter-spacing: .07em;
-	line-height: 1em;
-	padding: 2em 1em .5em 1em;
-	text-align: center;
-	text-shadow: 1px 1px #FFFFFC;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .07em;
+    line-height: 1em;
+    padding: 2em 6em .5em 1em;
+    text-align: center;
+    text-shadow: 1px 1px #FFFFFC;
 }
 
 
-.shop_button {
-	background-color: #FFFFFC;
-    border-bottom: 2px solid black;
-    border-radius: 50%;
-    color: black;
-    cursor: pointer;
-    display: block;
-    font-size: 2em;
-    letter-spacing: .04em;
-    margin: 2% auto;
-    padding: 15px 25px;
+.btn {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    width: 130px;
-    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
+.btn1{
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	width: 7.6em;
+    position: absolute;
+    left: 22%;
+    transform: translateY(-30%);
+}
+
+.btn1:hover {
+	background-color: #555555;
+	color:white;
+}
 
 .imgContainer {
 	width: 33.333%;
@@ -150,7 +163,7 @@ nav a {
 	height: 0;
 }
 
-#slogan {
+/*#slogan {
 	color: #FFFFFC;
 	font-family: 'Raleway', sans-serif;
 	font-style: italic;
@@ -158,7 +171,8 @@ nav a {
 	letter-spacing: .07em;
 	text-align: center;
 	text-shadow: 2px 2px #002124;
-}
+	padding: 0 17em .5em 3em;
+}*/
 
 #two_column {
 	background-color: #BBFFE0;
