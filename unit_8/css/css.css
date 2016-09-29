@@ -306,6 +306,7 @@ main p {
 }
 
 	 .footer a {
+	 	font-size: .5em;
 	 	border: 1px solid black;
 	 	width: 65%;
     	margin: 0 auto;
