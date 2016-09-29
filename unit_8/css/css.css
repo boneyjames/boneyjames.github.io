@@ -15,11 +15,6 @@ font-family: 'Raleway', sans-serif;*/
 
 body {
 	background-color: #FFFFFF;
-	/*background-image: url("beach_runner.jpeg");
-	background-repeat: no-repeat;
-	background-position: right-top;
-	background-attachment: fixed;
-	background-size: 100% 100%;*/
 	color: #002124;
 	font-family: 'Lora', serif;
 	letter-spacing: .05em;
@@ -243,19 +238,6 @@ main p {
 
 	}
 
-	/*.footer {
-	 	display: block;
-	 	float: none;
-	 	width: 100%;
-	 	border: none;
-}
-
-	 .footer a {
-	 	border: 1px solid black;
-	 	width: 75%;
-    	margin: 0 auto;
-}*/
-
 }
 
 @media only screen and (max-width: 650px) {
@@ -302,6 +284,30 @@ main p {
 	 .footer a {
 	 	border: 1px solid black;
 	 	width: 75%;
+    	margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 460px) {
+
+	 main p {
+	 	font-size: .75em;
+		width: 20em;
+		padding: 1em 1em;
+	}
+
+	.footer {
+	border: none;
+    display: block;
+    float: none;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+	 .footer a {
+	 	border: 1px solid black;
+	 	width: 65%;
     	margin: 0 auto;
 }
 }
