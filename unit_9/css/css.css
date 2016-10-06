@@ -231,8 +231,9 @@ main h2 {
 
 #align {
 	text-align: center;
-	display: inline-block;
-	margin: 10em 0 0 10em;
+    display: inline-block;
+    margin: 10em auto;
+    padding: 0 .5em;
 }
 
 
@@ -273,13 +274,13 @@ main h2 {
 
 @media only screen and (max-width: 830px) {
 
-	 .hero {
+	.hero {
 	 	height: 552px;
 	 }
 
 	 main p { 
 	   	width: 30em;
-		}
+	}
 
 	.imgContainer {
 		width: 100%;
@@ -288,33 +289,33 @@ main h2 {
 	    margin-left: 0px;
 	    margin-right: 0px;
 	    border: 1px solid black;
-}
+	}
 
 	.imgContainer img {
 		min-height: 405px;
-}
+	}
 
-	.imgContainer a {
+	.imgContainer a p {
 	    font-size: 6.4em;
-}
+	}
+	
 	main img {
 		width: 70%;
 	}
 
 	.col_1 {
-	width: 55%;
-	display: block;
-	float: none;
-	margin: 0 auto;
-}
+		width: 55%;
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
 
 	.col_2 {
 		width: 55%;
 		display: block;
 		float: none;
 		margin: 0 auto;
-
-}
+	}
 
 	.col_3 {
 		width: 55%;
@@ -322,7 +323,7 @@ main h2 {
 		float: none;
 		margin: 0 auto;
 
-}
+	}
 	.shop_page h3 {
 	    font-size: 1.5em;
 	    padding: .8em 0
@@ -331,10 +332,15 @@ main h2 {
 	.shop_page p {
 		font-size: 1em;
 	}
+
 	.story_p {
 		font-size: 1.5em;
 		width: 24em;
 	}
+
+	#align {
+    	margin: 8em auto;
+    }
 
 }
 
@@ -369,10 +375,6 @@ main h2 {
 
 	 .hero h1 {
 		font-size: 3.9em;
-	    margin: 0 auto;
-	    margin-top: 2em;
-	    margin-bottom: .2em;
-	    padding: 0 0;
 }
 
 	.btn1 {
@@ -419,6 +421,10 @@ main h2 {
 	.shop_page p {
 		font-size: .7em;
 	}
+
+	#align {
+    	margin: 7em auto;
+    }
 }
 
 @media only screen and (max-width: 460px) {
